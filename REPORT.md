@@ -160,13 +160,13 @@ $A$: Ma trận tuyến tính
 $B(k)$: Hằng phụ thuộc key (`def gen_keys(master_key)`)
 
 Với đề bài cho biết 1 plaintext và 2 ciphertext, ta có biểu thức:
-$$ E_k(P_1) \oplus E_k(P_2) $$
-$$ = (A(P_1) \oplus B(k)) \oplus (A(P_2) \oplus B(k)) $$
-$$ = A(P_1) \oplus A(P_2) $$
+$$E_k(P_1) \oplus E_k(P_2)$$
+$$= (A(P_1) \oplus B(k)) \oplus (A(P_2) \oplus B(k))$$
+$$= A(P_1) \oplus A(P_2)$$
 Vì tuyến tính:
-$$ = A(P_1 \oplus P_2) $$
+$$= A(P_1 \oplus P_2)$$
 Suy ra:
-$$ E_k(P_1) \oplus E_k(P_2) = E_0(P_1 \oplus P_2) $$
+$$E_k(P_1) \oplus E_k(P_2) = E_0(P_1 \oplus P_2)$$
 
 Ta có thể triền khai tấn công:
 
